@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheat Sheet Linux</title>
-</head>
-<body>
-
 
     ** selalu gunakan --help atau -h saat kamu lupa
 
@@ -21,6 +11,8 @@
     ls        =>menampilkan direktori 
     ls -l      => menampilkan semua direktori + permission
     ls -la      => menampilkan semua dirketori termasuk yang di hidden(.) + permission
+    .    ==> menunjukan lokasi direktori sata ini
+    ..   ==> keluar 1 direktori 
 
 
     ** CREATE FILE  **
@@ -28,7 +20,20 @@
     touch   ==> create file kosong
     mkdir   ==> create folder
     history  ==> meliaht perinath yang pernah kita jalankan
-    pwd     == > print with directory /melihat dimana kita sekarang
+    pwd     == > print with directory /melihat dimana kita 
+    
+    ** FILE MANAGEMENT **
+      cp  ==> copy file                 { cp catatan.txt  folderku/}
+      mv  ==> cut atau rename file      { mv catatan.txt folderku/}
+      mv  ==> rename file      { mv catatan.txt catatanRename.txt}
+      rmdir  ==> remove folder kosong
+      rm     ==> remove file
+      rm -r  ==> menghapus folder dan isinya
+      versi linux server tidak ada recyclebin
+    
+
+      ** WILD CARD **
+      
     
 
 
@@ -40,12 +45,3 @@
 
 
 
-
-
-
-
-
-
-    
-</body>
-</html>
