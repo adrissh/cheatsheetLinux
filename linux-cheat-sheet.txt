@@ -33,7 +33,14 @@
     
 
       ** WILD CARD **
-      
+        simbol yg mewakili karakter lainnya 
+
+
+        * ===> representasi 0 atau semua  (hapus/cari folder yang hampir sama)   
+        ?  ====> representasi single karakter 
+        {} ====> representasi range sebuah karakter (bikin folder/file banyak )
+
+        biasa digunakan untuk membuat file atau folder banyak atau juga pencarian
     
 
 
