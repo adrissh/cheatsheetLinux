@@ -87,6 +87,42 @@
     tekan i sampai muncul insert 
     tekan :wq untuk save 
     tekan :q! untuk cancel
+
+
+
+    ** USER AND GROUP **
+
+    user digunakan untuk memeberi batasan keamanan antara pengguna dan program yang berbeda yang dapat menjalankan perintah
+    direktori di /etc/passwd
+    setiap user memiliki UID
+    - user root memiliki UID 0
+    semua user system memiliki UID 1-999
+    semua user non-root memiliki uid 1000 dan seterusnya
+
+
+
+    group -> kumpulan user yang dapat berbagi akses 
+    setiap group memilik GID
+    - user root memiliki GID 0
+    - semua user system memiliki GID 1-999
+    - semua user non-root memiliki Gid 1000 dan seterusnya
+
+    lokasi informasi user ada di  =========> etc/passwd
+    adri(1):x(2):1000(3):1000(4):adri(5):/home/adri(6):/bin/bash(7)
+
+    1 -> username untuk user
+    2 -> userpassword encrypt format
+    3 -> UID untuk akun user
+    4 -> GID untuk akun user
+    5 -> nama lengkap user
+    6 -> home direktori untuk user
+    7 -> default shell untuk login user
+
+    lokasi inforasi group   =================>> /etc/group
+
+
+
+
     
 
 
