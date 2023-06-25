@@ -68,6 +68,13 @@
     head ==> menampilkan output tetapi hanya bagian headernya
         ex : head etc/passwd
     tail ==> menampilkan output tetapi hanya bagian tailnya 
+
+
+    ** GREP (Global expression PRINT) ***
+    untuk menmpilkan output baris  yang sesuai dengan pola yg dipilih  
+    syntax ==> grep nama direktori 
+                grep adri etc/passwd
+                grep -c adri etc/passwd -> jumlah kata yg mengandung adri
     
 
 
