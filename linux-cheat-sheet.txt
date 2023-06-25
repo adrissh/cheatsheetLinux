@@ -75,6 +75,18 @@
     syntax ==> grep nama direktori 
                 grep adri etc/passwd
                 grep -c adri etc/passwd -> jumlah kata yg mengandung adri
+
+
+    ** TEXT EDITOR ** 
+    ada vi -> versi jadu 
+    ada vim -> hasil vi yg dikembangkan 
+    ada  nanao -> 
+    syntax : vim nama_file
+    ex : vim myNotes.txt
+
+    tekan i sampai muncul insert 
+    tekan :wq untuk save 
+    tekan :q! untuk cancel
     
 
 
