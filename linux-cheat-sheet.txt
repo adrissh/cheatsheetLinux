@@ -1,6 +1,10 @@
 
     ** selalu gunakan --help atau -h saat kamu lupa
 
+
+    # ->> tanda kita menggunaka user root
+    $ ->> tamda kita mengunakan user biasa
+
     **BASIC COMMAND LINUX**
     && atau ;  ==> menggabungkan command sekaligus
 
@@ -41,6 +45,29 @@
         {} ====> representasi range sebuah karakter (bikin folder/file banyak )
 
         biasa digunakan untuk membuat file atau folder banyak atau juga pencarian
+    
+
+    ** SEARCH FILE **
+    find (mencari sebuah file) syntax->(find dikrektori -name namaFile)  ===>   find /home -name catatanSaya.txt
+    find   ===>   find /home/adri -name catatanSaya.txt
+
+    locate ==> lebih kencang bro ,tapi harus di update jiga ada file baru ==>(updatedb)
+
+
+    ** LISTING FILE DAN DIRECTORY **
+
+    ls ==> menampilkan isi sebuah direktori
+          ls -l      => menampilkan semua direktori + permission
+          ls -la      => menampilkan semua dirketori termasuk yang di hidden(.) + permission
+
+
+    cat ==> menampilkan isi file
+        ex : cat /etc/passwd
+    sort ==> menampilkan output tetapi mengurutkan berdasarkan abjad
+        ex : sort etc/passwd
+    head ==> menampilkan output tetapi hanya bagian headernya
+        ex : head etc/passwd
+    tail ==> menampilkan output tetapi hanya bagian tailnya 
     
 
 
