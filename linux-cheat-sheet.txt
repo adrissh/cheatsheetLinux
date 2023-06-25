@@ -121,6 +121,14 @@
     lokasi inforasi group   =================>> /etc/group
 
 
+    syntax tambah user : adduser adri
+    syntax tambah group : groupadd namagroup
+
+    su nama_user  ==> switch user
+
+    userdel nama_user   ====> menghapus user
+    menambahkan user ke group ===> usermod -G ciam adri
+
 
 
     
