@@ -126,11 +126,13 @@
 
     su nama_user  ==> switch user
 
-    userdel nama_user   ====> menghapus user
-    menambahkan user ke group ===> usermod -G ciam adri
+    userdel nama_user   ====> menghapus user   
+    usermod -rG nama_group nama_user  -----> menghapus user dari group 
+    usermod -aG nama_group nama_user ---------> menambah user ke group tanpa menghapus di group sebelumnya
+    usermod -g nama_group nama_user ----> menambahkan user ke group **jika sebelumnya user sudah masuk group lain maka akan di di pindahkan 
 
 
-
+	
     
 
 
