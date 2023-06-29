@@ -138,6 +138,17 @@
     untuk masuk ke root ada 2 cara 
     sudo ====> tetap menjalankan user non-root tetapi meminjam akses root
     su   =======>  langsung masuk menggunakan user root
+    ** penting user tidak bisa menggunakan sudo atau akses istimewa sebelum di daftarkan 
+	cara mengecek user terdaptar di sudo atau belu yaitu =====> grep sudo /etc/group
+         cara daftarkan user ke group sudo yaitu seperti add user ke group biasa ==. usermod -G sudo nama_user
+     
+
+  command sudo default mewajibkan kita mewajibkan kita memasukan password sebagai auth ,
+  kita dapat merubah permissison agar tidak perlulagi memasukan password sebagai auth untuk execute command sudo
+	caranya : syntax ====> visudo
+		   lalu ubah script  %sudo ALL=(ALL:ALL)NOPASSWD:ALL 
+
+
 
 
 
