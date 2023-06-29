@@ -163,7 +163,15 @@ rw-             6           Read + Write
 rwx             7           Read + Write + Execute 
 
 
+chmod 741 nama_file/nama_folder -->> set permission
+	7 ===> untuk owner /user yg creat folder atau file tersebut
+	4 ===> untuk group , biasana default group by nam auser tersebut
+        1 ===> untuk user / other yg tidak termasuk kedalam group ataupun owner
 
+chown ===> change kepemilikan owner  ex : chown user_owner nama_file/direktori
+chgrp ===> change kepemilikan group  ex : chgrp nama_group namafile/direktori
+
+-R ==> untuk mengubah chown,chgrp,chmod FOLDER beserta parent +  didalamnya (jika mau disamain permissionnya) 
 
 
 
