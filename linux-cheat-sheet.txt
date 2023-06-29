@@ -130,10 +130,14 @@
     usermod -rG nama_group nama_user  -----> menghapus user dari group 
     usermod -aG nama_group nama_user ---------> menambah user ke group tanpa menghapus di group sebelumnya
     usermod -g nama_group nama_user ----> menambahkan user ke group **jika sebelumnya user sudah masuk group lain maka akan di di pindahkan 
+     
+    passwd nama_user  ===>>> jika lupa password
 
-
-	
+    cat /etc/shadow ====> untuk melihat enkripsi password , uid ,gid dll ** tetapi hanya user root yg bisa	
     
+    untuk masuk ke root ada 2 cara 
+    sudo ====> tetap menjalankan user non-root tetapi meminjam akses root
+    su   =======>  langsung masuk menggunakan user root
 
 
 
