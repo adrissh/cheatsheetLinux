@@ -149,6 +149,22 @@
 		   lalu ubah script  %sudo ALL=(ALL:ALL)NOPASSWD:ALL 
 
 
+*** LINUX FILE PERMISSION********
+ permission with numeric
+
+symbolic     Numeric     permission
+---             0           none
+--x             1           execute
+-w-             2           Write
+-wx             3           Execute + Write
+r--             4           Read
+r-x             5           Read + Execute
+rw-             6           Read + Write
+rwx             7           Read + Write + Execute 
+
+
+
+
 
 
 
